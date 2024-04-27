@@ -6,11 +6,10 @@ Python 3.10.12
 https://colab.research.google.com ในการเขียน code และใช้ในการ run 
 
 ![image](https://github.com/NitichaiSawangsai/vall-e-voice-engine-machine-learning/assets/40546651/d0b95731-c212-4dc2-9785-08df73f28b8b)
-![image](https://github.com/NitichaiSawangsai/vall-e-voice-engine-machine-learning/assets/40546651/1ca88b8b-a6c6-4dc9-bb03-41acc8f7390c)
-
-
 
 ## วิธีเข้าผ่าน Terminal ตัวเอง
+![image](https://github.com/NitichaiSawangsai/vall-e-voice-engine-machine-learning/assets/40546651/1ca88b8b-a6c6-4dc9-bb03-41acc8f7390c)
+
 ```
 $ ssh fat-bracket-excluding-lanes.trycloudflare.com
 
