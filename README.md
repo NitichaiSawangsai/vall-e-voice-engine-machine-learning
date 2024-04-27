@@ -1,3 +1,55 @@
+
+# install mac me
+
+Python 3.10.12
+
+https://colab.research.google.com ในการเขียน code และใช้ในการ run 
+
+## วิธีเข้าผ่าน Terminal ตัวเอง
+```
+$ ssh physics-town-germany-comfortable.trycloudflare.com
+
+```
+
+# วิธีติดตั้ง
+```
+$ git clone git@github.com:NitichaiSawangsai/vall-e-voice-engine-machine-learning.git vall-e-voice-engine-machine-learning
+$ cd vall-e-voice-engine-machine-learning
+$ pip install torch==1.13.1+cu116 torchaudio==0.13.1+cu116 -f https://download.pytorch.org/whl/cu116/torch_stable.html
+$ pip install torchmetrics==0.11.1
+$ pip install librosa==0.8.1
+$ apt-get install espeak-ng
+$ pip install phonemizer==3.2.1 pypinyin==0.48.0
+$ pip uninstall lhotse
+$ pip install git+https://github.com/lhotse-speech/lhotse
+$ pip install https://huggingface.co/csukuangfj/k2/resolve/main/cuda/k2-1.23.4.dev20230224+cuda11.6.torch1.13.1-cp310-cp310-linux_x86_64.whl
+$ cd ..
+$ git clone https://github.com/k2-fsa/icefall # or git clone git@github.com:NitichaiSawangsai/icefall.git
+$ cd icefall
+$ pip install -r requirements.txt
+$ export PYTHONPATH=`pwd`/../icefall:$PYTHONPATH
+$ echo "export PYTHONPATH=`pwd`/../icefall:\$PYTHONPATH" >> ~/.zshrc
+$ echo "export PYTHONPATH=`pwd`/../icefall:\$PYTHONPATH" >> ~/.bashrc
+$ cd -
+$ source ~/.zshrc
+$ git clone https://github.com/lifeiteng/valle.git
+$ cd valle
+$ pip install -e .
+```
+
+
+
+
+
+
+
+
+
+
+-------------------
+
+
+
 Language : 🇺🇸 | [🇨🇳](./README.zh-CN.md)
 
 An unofficial PyTorch implementation of VALL-E([Neural Codec Language Models are Zero-Shot Text to Speech Synthesizers](https://arxiv.org/abs/2301.02111)).
@@ -175,3 +227,7 @@ To cite this repository:
 ## Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=lifeiteng/vall-e&type=Date)](https://star-history.com/#lifeiteng/vall-e&Date)
+
+
+
+
