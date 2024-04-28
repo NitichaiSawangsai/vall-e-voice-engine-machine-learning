@@ -17,8 +17,8 @@ $ ssh fat-bracket-excluding-lanes.trycloudflare.com
 
 # วิธีติดตั้ง
 ```
-$ git clone git@github.com:NitichaiSawangsai/vall-e-voice-engine-machine-learning.git vall-e-voice-engine-machine-learning
-$ cd vall-e-voice-engine-machine-learning
+$ git clone git@github.com:NitichaiSawangsai/voice-engine-use-train.git voice-engine-use-train
+$ cd voice-engine-use-train
 $ pip install torch==1.13.1+cu116 torchaudio==0.13.1+cu116 -f https://download.pytorch.org/whl/cu116/torch_stable.html
 $ pip install torchmetrics==0.11.1
 $ pip install librosa==0.8.1
